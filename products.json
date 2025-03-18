@@ -1,0 +1,99 @@
+[
+    {
+      "id": 1,
+      "category": "camera",
+      "name": "Sony A7 Mark III",
+      "description": "Body Only, termasuk baterai dan tas.",
+      "price": "Rp 250.000,00 / hari",
+      "image": "assets/img/product/sony-a73.png"
+    },
+    {
+      "id": 2,
+      "category": "lenses",
+      "name": "Canon EF 50mm F/1.8",
+      "description": "Lensa Prime untuk Kamera Canon.",
+      "price": "Rp 150.000,00 / hari",
+      "image": "assets/img/product/canon-50mm.png"
+    },
+    {
+      "id": 3,
+      "category": "rigs",
+      "name": "Pro Camera Rig",
+      "description": "Complete rig for handheld shooting.",
+      "price": "Rp 350.000,00 / hari",
+      "image": "assets/img/product/pro-camera-rig.png"
+    },
+    {
+      "id": 4,
+      "category": "camera",
+      "name": "Sony A7 Mark III",
+      "description": "Body Only, termasuk baterai dan tas.",
+      "price": "Rp 250.000,00 / hari",
+      "image": "assets/img/product/sony-a73.png"
+    },
+    {
+      "id": 5,
+      "category": "lenses",
+      "name": "Canon EF 50mm F/1.8",
+      "description": "Lensa Prime untuk Kamera Canon.",
+      "price": "Rp 150.000,00 / hari",
+      "image": "assets/img/product/canon-50mm.png"
+    },
+    {
+      "id": 6,
+      "category": "rigs",
+      "name": "Pro Camera Rig",
+      "description": "Complete rig for handheld shooting.",
+      "price": "Rp 350.000,00 / hari",
+      "image": "assets/img/product/pro-camera-rig.png"
+    },
+    {
+      "id": 7,
+      "category": "camera",
+      "name": "Sony A7 Mark III",
+      "description": "Body Only, termasuk baterai dan tas.",
+      "price": "Rp 250.000,00 / hari",
+      "image": "assets/img/product/sony-a73.png"
+    },
+    {
+      "id": 8,
+      "category": "lenses",
+      "name": "Canon EF 50mm F/1.8",
+      "description": "Lensa Prime untuk Kamera Canon.",
+      "price": "Rp 150.000,00 / hari",
+      "image": "assets/img/product/canon-50mm.png"
+    },
+    {
+      "id": 9,
+      "category": "rigs",
+      "name": "Pro Camera Rig",
+      "description": "Complete rig for handheld shooting.",
+      "price": "Rp 350.000,00 / hari",
+      "image": "assets/img/product/pro-camera-rig.png"
+    },
+    {
+      "id": 10,
+      "category": "camera",
+      "name": "Sony A7 Mark III",
+      "description": "Body Only, termasuk baterai dan tas.",
+      "price": "Rp 250.000,00 / hari",
+      "image": "assets/img/product/sony-a73.png"
+    },
+    {
+      "id": 11,
+      "category": "lenses",
+      "name": "Canon EF 50mm F/1.8",
+      "description": "Lensa Prime untuk Kamera Canon.",
+      "price": "Rp 150.000,00 / hari",
+      "image": "assets/img/product/canon-50mm.png"
+    },
+    {
+      "id": 12,
+      "category": "rigs",
+      "name": "Pro Camera Rig",
+      "description": "Complete rig for handheld shooting.",
+      "price": "Rp 350.000,00 / hari",
+      "image": "assets/img/product/pro-camera-rig.png"
+    }
+  ]
+  

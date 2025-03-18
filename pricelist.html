@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Prime Rent - Film Equipment Rental</title>
+    
+</head>
+<body>
+    
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary bg-primary sticky-top" style="height: 85px;">
+        <div class="container position-relative">
+            <a href="#">
+                <img
+                src="/assets/logo/logo1.svg"
+                height="28"
+                alt="logo"
+                loading="lazy"
+                style="margin-top: -1px;"
+                />
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav navbar-center body-1">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="index.html #about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="pricelist.html">Pricelist</a>
+                    </li>
+                </ul>
+                
+                <div class="ms-auto">
+                    <button type="button" class="btn btn-light btn-centered body-1 fw-semibold" style="height: 34px; width: 145px;">
+                        LOGIN
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- PRICELIST -->
+    <section id="pricelist" class="container py-5">
+        <h2 class="heading-2 mb-2 text-uppercase text-center">Our Pricelist</h2>
+        <p class="body-1 text-center mb-5">Temukan berbagai peralatan film dan multimedia berkualitas dengan harga terbaik untuk kebutuhan produksi Anda.</p>
+
+        <!-- Category -->
+        <div class="row">
+            <div class="col-md-3">
+                <div>
+                    <div class="card-header">
+                        <h5>Category</h5>
+                    </div>
+                    <div class="list-group category-list">
+                        <a href="#" class="list-group-item" data-category="all">All</a>
+                        <a href="#" class="list-group-item" data-category="camera">Camera Video / Camcorder</a>
+                        <a href="#" class="list-group-item" data-category="lenses">Lenses</a>
+                        <a href="#" class="list-group-item" data-category="audio">Audio</a>
+                        <a href="#" class="list-group-item" data-category="lighting">Lighting</a>
+                        <a href="#" class="list-group-item" data-category="drone">Drone</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-9">
+                <div class="row row-cols-1 row-cols-md-3 g-4" id="product-grid">
+                    <!-- LOAD PRODUK -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer bg-primary text-light">
+
+        <div class="container text-center py-5">
+            <div class="mx-auto" style="max-width: 574px;">
+                <h2 class="heading-2 text-light" style="font-size: 30px;">Sewa peralatan film, multimedia, dan fotografi lengkap, mudah & terpercaya.</h2>
+            </div>
+            <button class="btn btn-light mt-4 px-4 py-2 fw-bold">REGISTER NOW</button>
+        </div>
+
+        <div class="d-flex justify-content-center">
+            <hr class="text-white opacity-50 my-0" style="width: 50%; border-width: 2px;">
+        </div>
+
+        <div class="container py-4 mt-5">
+            <div class="row align-items-center">
+                <div class="col-md-4 text-center text-md-start mb-3 mb-md-0">
+                    <div class="d-flex align-items-center justify-content-center justify-content-md-start">
+                        <img src="assets/logo/logo2-white.svg" alt="Prime Rent Logo" width="120">
+                        <div class="ms-3" style="max-width: 150px;">
+                            <h6 class="heading-2 text-light" style="font-size: 18px;">Your Creative Equipment Partner</h6>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 text-center">
+                    <p class="mb-0 small">© 2025 Prime Rent. All Rights Reserved.</p>
+                </div>
+
+                <div class="col-md-4 text-center text-md-end">
+                    <a href="#" class="mx-2 text-decoration-none icon-logo">
+                        <img src="assets/icon/email-icon.svg" alt="Email Icon" width="24">
+                    </a>
+                    <a href="#" class="mx-2 text-decoration-none icon-logo">
+                        <img src="assets/icon/instagram-icon.svg" alt="Instagram Icon" width="24">
+                    </a>
+                    <a href="#" class="mx-2 text-decoration-none icon-logo">
+                        <img src="assets/icon/whatsapp-icon.svg" alt="WhatsApp Icon" width="24">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
