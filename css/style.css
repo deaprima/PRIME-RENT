@@ -182,22 +182,34 @@
     transition: transform 0.3s ease;
 }
 
-.testimonial-card:hover {
-    transform: scale(1.1);
-}
-
 .stars {
     font-size: 20px;
     margin-bottom: 10px;
 }
-.arrow {
-    width: 20px;
-    transition: transform 0.3s ease;
+
+.carousel-control-prev, .carousel-control-next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%); 
+    width: 5%;  
+    z-index: 10;
 }
 
-.arrow:hover {
-    transform: scale(1.1); 
+.carousel-control-prev {
+    left: 15%; 
 }
+
+.carousel-control-next {
+    right: 15%; 
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    background-color: var(--bs-primary);
+    color: var(--bs-primary);
+    border-radius: 50%; 
+}
+
+
 
 /* FOOTER */
 .icon-logo img {
