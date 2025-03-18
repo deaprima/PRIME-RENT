@@ -1,5 +1,7 @@
 fetch('products.json')
     .then(response => response.json())
+
+    // INDEX
     .then(data => {
         const productGrid = document.getElementById('product-grid');
         
@@ -32,6 +34,8 @@ fetch('products.json')
             displayProducts(featuredProducts);
         }
         
+
+        // PRICELIST
         if (window.location.pathname.includes('pricelist.html')) {
             displayProducts(data);
             
@@ -45,12 +49,9 @@ fetch('products.json')
                         ? data 
                         : data.filter(product => product.category === category);
 
-                setTimeout(() => {
-                    const filteredProducts = category === 'all' 
-                        ? data 
-                        : data.filter(product => product.category === category);
-                    displayProducts(filteredProducts);
-                }, 300); 
+                    setTimeout(() => {
+                        displayProducts(filteredProducts);
+                    }, 300); 
                 });
             });
         }
@@ -61,5 +62,38 @@ fetch('products.json')
                 window.location.href = `product-detail.html?id=${productId}`;
             });
         });
+
+
+        // PRODUK DETAIL
+        if (window.location.pathname.includes('product-detail.html')) {
+
+            const urlParams = new URLSearchParams(window.location.search);
+            const productId = urlParams.get('id');
+            
+            const product = data.find(p => p.id == productId);
+
+            if (product) {
+                const productInfo = document.getElementById('product-info');
+                const breadcrumbProduct = document.getElementById('breadcrumb-product');
+                
+                breadcrumbProduct.textContent = product.name;
+
+                productInfo.innerHTML = `
+                    <div class="col-12 col-md-6">
+                        <img src="${product.image}" class="img-fluid" alt="${product.name}">
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <h3 class="product-title">${product.name}</h3>
+                        <p class="product-description">${product.description}</p>
+                        <p class="product-price">${product.price}</p>
+                        <button class="btn btn-primary">Rent</button>
+                    </div>
+                `;
+            } else {
+                productInfo.innerHTML = '<p>Product not found</p>';
+            }
+        }
     })
-    .catch(error => console.error('Error loading product data:', error));
+    .catch(error => {
+        console.error('Error loading product data:', error);
+    });
