@@ -3,97 +3,42 @@
       "id": 1,
       "category": "camera",
       "name": "Sony A7 Mark III",
-      "description": "Body Only, termasuk baterai dan tas.",
+      "description": "Kamera fullframe Sony A7 Mark III.",
+      "include" : "Body Only, termasuk baterai dan tas.",
       "price": "Rp 250.000,00 / hari",
-      "image": "assets/img/product/sony-a73.png"
+      "image": "assets/product/sony-a73.png",
+      "tag": "Best Seller"
     },
     {
       "id": 2,
-      "category": "lenses",
-      "name": "Canon EF 50mm F/1.8",
-      "description": "Lensa Prime untuk Kamera Canon.",
-      "price": "Rp 150.000,00 / hari",
-      "image": "assets/img/product/canon-50mm.png"
+      "category": "drone",
+      "name": "DJI Inspire 3",
+      "description": "Drone DJI Inspire 3 fullset.",
+      "include" : "Unit drone, 1 baterai, remote, dan hardcase",
+      "price": "Rp 3.000.000,00 / hari",
+      "image": "assets/product/inspire3.webp",
+      "tag": ""
     },
     {
       "id": 3,
-      "category": "rigs",
-      "name": "Pro Camera Rig",
-      "description": "Complete rig for handheld shooting.",
-      "price": "Rp 350.000,00 / hari",
-      "image": "assets/img/product/pro-camera-rig.png"
+      "category": "lensa",
+      "name": "Sony 70-200mm F2.8 GM II",
+      "description": "Lensa fullframe sony G Master 70-200mm F2.8 mark ii.",
+      "include" : "Unit lensa, Hood, lenscap, dan pouch",
+      "price": "Rp 280.000,00 / hari",
+      "image": "assets/product/sony70-200ii2.8gm.png",
+      "tag": "New"
     },
     {
       "id": 4,
       "category": "camera",
-      "name": "Sony A7 Mark III",
-      "description": "Body Only, termasuk baterai dan tas.",
-      "price": "Rp 250.000,00 / hari",
-      "image": "assets/img/product/sony-a73.png"
-    },
-    {
-      "id": 5,
-      "category": "lenses",
-      "name": "Canon EF 50mm F/1.8",
-      "description": "Lensa Prime untuk Kamera Canon.",
-      "price": "Rp 150.000,00 / hari",
-      "image": "assets/img/product/canon-50mm.png"
-    },
-    {
-      "id": 6,
-      "category": "rigs",
-      "name": "Pro Camera Rig",
-      "description": "Complete rig for handheld shooting.",
-      "price": "Rp 350.000,00 / hari",
-      "image": "assets/img/product/pro-camera-rig.png"
-    },
-    {
-      "id": 7,
-      "category": "camera",
-      "name": "Sony A7 Mark III",
-      "description": "Body Only, termasuk baterai dan tas.",
-      "price": "Rp 250.000,00 / hari",
-      "image": "assets/img/product/sony-a73.png"
-    },
-    {
-      "id": 8,
-      "category": "lenses",
-      "name": "Canon EF 50mm F/1.8",
-      "description": "Lensa Prime untuk Kamera Canon.",
-      "price": "Rp 150.000,00 / hari",
-      "image": "assets/img/product/canon-50mm.png"
-    },
-    {
-      "id": 9,
-      "category": "rigs",
-      "name": "Pro Camera Rig",
-      "description": "Complete rig for handheld shooting.",
-      "price": "Rp 350.000,00 / hari",
-      "image": "assets/img/product/pro-camera-rig.png"
-    },
-    {
-      "id": 10,
-      "category": "camera",
-      "name": "Sony A7 Mark III",
-      "description": "Body Only, termasuk baterai dan tas.",
-      "price": "Rp 250.000,00 / hari",
-      "image": "assets/img/product/sony-a73.png"
-    },
-    {
-      "id": 11,
-      "category": "lenses",
-      "name": "Canon EF 50mm F/1.8",
-      "description": "Lensa Prime untuk Kamera Canon.",
-      "price": "Rp 150.000,00 / hari",
-      "image": "assets/img/product/canon-50mm.png"
-    },
-    {
-      "id": 12,
-      "category": "rigs",
-      "name": "Pro Camera Rig",
-      "description": "Complete rig for handheld shooting.",
-      "price": "Rp 350.000,00 / hari",
-      "image": "assets/img/product/pro-camera-rig.png"
+      "name": "Lumix S5 Mark II",
+      "description": "Kamera Fulframe lumix S5 Mark II.",
+      "include":"Body Only, baterai, carger dan tas.",
+      "price": "Rp 300.000,00 / hari",
+      "image": "assets/product/lumixs5ii.png",
+      "tag": "New"
     }
+    
   ]
   
