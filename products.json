@@ -1,44 +1,243 @@
 [
-    {
-      "id": 1,
-      "category": "camera",
-      "name": "Sony A7 Mark III",
-      "description": "Kamera fullframe Sony A7 Mark III.",
-      "include" : "Body Only, termasuk baterai dan tas.",
-      "price": "Rp 250.000,00 / hari",
-      "image": "assets/product/sony-a73.png",
-      "tag": "Best Seller"
-    },
-    {
-      "id": 2,
-      "category": "drone",
-      "name": "DJI Inspire 3",
-      "description": "Drone DJI Inspire 3 fullset.",
-      "include" : "Unit drone, 1 baterai, remote, dan hardcase",
-      "price": "Rp 3.000.000,00 / hari",
-      "image": "assets/product/inspire3.webp",
-      "tag": ""
-    },
-    {
-      "id": 3,
-      "category": "lensa",
-      "name": "Sony 70-200mm F2.8 GM II",
-      "description": "Lensa fullframe sony G Master 70-200mm F2.8 mark ii.",
-      "include" : "Unit lensa, Hood, lenscap, dan pouch",
-      "price": "Rp 280.000,00 / hari",
-      "image": "assets/product/sony70-200ii2.8gm.png",
-      "tag": "New"
-    },
-    {
-      "id": 4,
-      "category": "camera",
-      "name": "Lumix S5 Mark II",
-      "description": "Kamera Fulframe lumix S5 Mark II.",
-      "include":"Body Only, baterai, carger dan tas.",
-      "price": "Rp 300.000,00 / hari",
-      "image": "assets/product/lumixs5ii.png",
-      "tag": "New"
-    }
-    
-  ]
+  {
+    "id": 1,
+    "category": "camera",
+    "name": "Sony A7 Mark III",
+    "description": "Kamera fullframe Sony A7 Mark III.",
+    "include" : "Body Only, termasuk baterai dan tas.",
+    "price": "Rp 250.000,00 / hari",
+    "image": "assets/product/sony-a73.png",
+    "tag": "Best Seller"
+  },
+  {
+    "id": 2,
+    "category": "drone",
+    "name": "DJI Inspire 3",
+    "description": "Drone DJI Inspire 3 fullset.",
+    "include" : "Unit drone, 1 baterai, remote, dan hardcase",
+    "price": "Rp 3.000.000,00 / hari",
+    "image": "assets/product/inspire3.webp",
+    "tag": ""
+  },
+  {
+    "id": 3,
+    "category": "lensa",
+    "name": "Sony 70-200mm F2.8 GM II",
+    "description": "Lensa fullframe sony G Master 70-200mm F2.8 mark ii.",
+    "include" : "Unit lensa, Hood, lenscap, dan pouch",
+    "price": "Rp 280.000,00 / hari",
+    "image": "assets/product/sony70-200ii2.8gm.png",
+    "tag": "New"
+  },
+  {
+    "id": 4,
+    "category": "camera",
+    "name": "Lumix S5 Mark II",
+    "description": "Kamera Fulframe lumix S5 Mark II.",
+    "include":"Body Only, baterai, carger dan tas.",
+    "price": "Rp 300.000,00 / hari",
+    "image": "assets/product/lumixs5ii.png",
+    "tag": "New"
+  },
+  {
+    "id": 5,
+    "category": "lensa",
+    "name": "Sigma Art 35mm F1.4",
+    "description": "Lensa sigma art 35mm F1.4 for Sony E-Mount",
+    "include" : "Unit lensa, Hood, lenscap, dan pouch",
+    "price": "Rp 200.000,00 / hari",
+    "image": "assets/product/sigmaart35f1.4.png",
+    "tag": ""
+  },
+  {
+    "id": 6,
+    "category": "audio",
+    "name": "Saramonic Blink 500 B2+",
+    "description": "Mic Wireless Saramonic Blink 500 B2+ for all device.",
+    "include" : "2 Transmitter, 1 receiver, Carger, laravier dan pouch",
+    "price": "Rp 80.000,00 / hari",
+    "image": "assets/product/saramonic blink500 b2+.png",
+    "tag": "New"
+  },
+  {
+    "id": 7,
+    "category": "lighting",
+    "name": "Godox V860III-F TTL",
+    "description": "Flash Eksternal Godox V860III-F TTL.",
+    "include" : "Unit Lighting, baterai, dan hardcase",
+    "price": "Rp 125.000,00 / hari",
+    "image": "assets/product/GODOX V860III-F TTL.png",
+    "tag": ""
+  },
+  {
+    "id": 8,
+    "category": "camera",
+    "name": "Sony a7C",
+    "description": "Kamera Fulframe Sony a7C.",
+    "include":"Body Only, baterai, carger dan tas.",
+    "price": "Rp 250.000,00 / hari",
+    "image": "assets/product/sonya7C.webp",
+    "tag": "Best Seller"
+  },
+  {
+    "id": 9,
+    "category": "lensa",
+    "name": "Fujinon 50mm F1.0",
+    "description": "Lensa Fuji 50mm F1.0",
+    "include" : "Unit lensa, Hood, lenscap, dan pouch",
+    "price": "Rp 190.000,00 / hari",
+    "image": "assets/product/fujinon50f1.0.png",
+    "tag": ""
+  },
+  {
+    "id": 10,
+    "category": "lighting",
+    "name": "Godox sl-60W",
+    "description": "Continous Lighting godox sl-60w.",
+    "include" : "Unit Lighting, carger, dan hardcase",
+    "price": "Rp 90.000,00 / hari",
+    "image": "assets/product/godoxsl60w.png",
+    "tag": "Best Seller"
+  },
+  {
+    "id": 11,
+    "category": "camera",
+    "name": "Nikon Z6",
+    "description": "Kamera mirorless Nikon fullframe",
+    "include" : "Body Only, baterai, carger dan tas. ",
+    "price": "Rp 300.000,00 / hari",
+    "image": "assets/product/nikonz6.png",
+    "tag": ""
+  },
+  {
+    "id": 12,
+    "category": "camera",
+    "name": "Fujifilm XT-100",
+    "description": "Kamera apsc fujifilm xt-100",
+    "include":"Body Only, baterai, carger dan tas.",
+    "price": "Rp 280.000,00 / hari",
+    "image": "assets/product/fujixt-100.png",
+    "tag": ""
+  },
+  {
+    "id": 13,
+    "category": "audio",
+    "name": "Holyland Lark M2",
+    "description": "Mic Wireless Holyland lark m2 for all device.",
+    "include" : "2 Transmitter, 1 receiver, Carger, laravier dan pouch",
+    "price": "Rp 100.000,00 / hari",
+    "image": "assets/product/holylandlarkm2.png",
+    "tag": ""
+  },
+  {
+    "id": 14,
+    "category": "camera",
+    "name": "Sony a6400",
+    "description": "Kamera apsc sony a6400",
+    "include" : "Body Only, baterai, carger dan tas.",
+    "price": "Rp 250.000,00 / hari",
+    "image": "assets/product/sony6400.png",
+    "tag": "Best Seller"
+  },
+  {
+    "id": 15,
+    "category": "lensa",
+    "name": "Canon lens 16-35 f2.8 IS III USM",
+    "description": "Lensa Canon L series 16-35 F2.8",
+    "include" : "Unit lensa, Hood, lenscap, dan pouch.",
+    "price": "Rp 150.000,00 / hari",
+    "image": "assets/product/16-35 f2.8 IS III USM.png",
+    "tag": ""
+  },
+  {
+    "id": 16,
+    "category": "lighting",
+    "name": "Godox sl-150w",
+    "description": "Continous Lighting godox sl-150w.",
+    "include":"Unit Lighting, carger, dan hardcase",
+    "price": "Rp 180.000,00 / hari",
+    "image": "assets/product/godoxsl150.png",
+    "tag": ""
+  },
+  {
+    "id": 17,
+    "category": "drone",
+    "name": "Dji Mavic Air 3s",
+    "description": "Drone Terbaru Dji Mavic Air 3S",
+    "include" : "Unit drone, 1 baterai, remote, dan hardcase",
+    "price": "Rp 1.250.000,00 / hari",
+    "image": "assets/product/mavicair3s.png",
+    "tag": "Best Seller"
+  },
+  {
+    "id": 18,
+    "category": "camera",
+    "name": "Fujifilm XT-5",
+    "description": "Kamera apsc fujifilm xt-5",
+    "include" : "Body Only, baterai, carger dan tas. ",
+    "price": "Rp 300.000,00 / hari",
+    "image": "assets/product/fujixt-5.png",
+    "tag": ""
+  },
+  {
+    "id": 19,
+    "category": "audio",
+    "name": "Rode Videomic Go II",
+    "description": "Mic Rode for camera",
+    "include" : "Unit mic, kabel, pouch",
+    "price": "Rp 80.000,00 / hari",
+    "image": "assets/product/Rode VideoMic GO II.png",
+    "tag": "New"
+  },
+  {
+    "id": 20,
+    "category": "lighting",
+    "name": "Godox V1 Pro",
+    "description": "Flash Eksternal Godox V1 Pro Universal.",
+    "include":"Unit Lighting, baterai, dan hardcase",
+    "price": "Rp 200.000,00 / hari",
+    "image": "assets/product/Godox V1Pro.webp",
+    "tag": ""
+  },
+  {
+    "id": 21,
+    "category": "camera",
+    "name": "Canon EOS R8",
+    "description": "Camera mirorless canon eos R8",
+    "include" : "Body Only, baterai, carger dan tas. ",
+    "price": "Rp 300.000,00 / hari",
+    "image": "assets/product/canoneosR8.png",
+    "tag": "New"
+  },
+  {
+    "id": 22,
+    "category": "lensa",
+    "name": "Sony 50mm F1.2 GM",
+    "description": "Lensa G Master sony 50mm F1.2",
+    "include" : "Unit lensa, Hood, lenscap, dan pouch.",
+    "price": "Rp 180.000,00 / hari",
+    "image": "assets/product/sony50f1.2GM.webp",
+    "tag": ""
+  },
+  {
+    "id": 23,
+    "category": "lensa",
+    "name": "Sony 24-70mm F2.8 GM",
+    "description": "Lensa G Master sony 24-70mm F2.8",
+    "include" : "Unit Lighting, baterai, dan hardcase",
+    "price": "Rp 200.000,00 / hari",
+    "image": "assets/product/sony2470f2.8gm.png",
+    "tag": ""
+  },
+  {
+    "id": 24,
+    "category": "camera",
+    "name": "Nikon Z6 Mark III",
+    "description": "Kamera mirorless Nikon fullframe",
+    "include" : "Body Only, termasuk baterai dan tas.",
+    "price": "Rp 300.000,00 / hari",
+    "image": "assets/product/nikonz6iii.png",
+    "tag": "New"
+  }
+]
   
